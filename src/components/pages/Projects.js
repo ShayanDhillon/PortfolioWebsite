@@ -11,6 +11,20 @@ function Projects() {
             <div className='cards-wrapper'>
                 <ul className='cards-items'>
                     <CardItem 
+                      src="translate.webp"
+                      text="Real-Time Translation Chat"
+                      label= "Express.js, FastAPI, JavaScript, Node.js, Python, ReactJS"
+                      path= "https://github.com/rkhexed/Client-Translation-Chat"
+                    />
+
+                    <CardItem 
+                      src="study.png"
+                      text="Study Motivation Web App"
+                      label= "Django, Next.js, Python, ReactJS, TypeScript"
+                      path= "https://github.com/ChristopherM2/Study-Motivation-Website"
+                    />
+
+                    <CardItem 
                       src="port.png"
                       text="Portfolio Website"
                       label= "ReactJS, HTML/CSS"
@@ -35,6 +49,7 @@ function Projects() {
                       label= "Python"
                       path= "https://github.com/ShayanDhillon/ReplitDiscordMusic"
                     />
+                    
                     
                     
                 </ul>

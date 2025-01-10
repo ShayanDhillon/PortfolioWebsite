@@ -1,6 +1,5 @@
 
 import React, {useState} from 'react';
-import { Button } from './Button';
 import {NavLink }  from 'react-router-dom';
 import './Navbar.css'
 function NavBar() {
@@ -12,7 +11,7 @@ function NavBar() {
     const closeMobileMenu = (id) => { 
         /* closes menu + scrolls */
         setClick(false);
-
+        console.log(button)
         const element = document.getElementById(id);
         if (element) {
             const scrollTop = window.scrollY || document.documentElement.scrollTop;

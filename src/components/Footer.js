@@ -29,7 +29,7 @@ function Footer() {
 
         <div className='footer-right'>
                 <p>Résumé: </p>
-                <a href='./ShayanDhillon_Resume_developer.pdf' download="resume.pdf">
+                <a href='./Shayan_s_Resume_Dev__2nd_work_term_-4.pdf' download="resume.pdf">
                     <i className="fa fa-file" aria-hidden="true"/>
                 </a>
 

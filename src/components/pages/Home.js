@@ -5,6 +5,8 @@ import { Button } from "../Button";
 
 function Home() {
 
+    const arr = ["Assembly (Arm v7)", "C", "Express.js", "Django", "FastAPI", "HTML/CSS/SASS", "Java", "JavaScript", "Next.js", "Node.js", "Python", "R", "ReactJS", "SQL", "TypeScript", "VBA"]
+
     
 
     return (
@@ -21,15 +23,13 @@ function Home() {
                     </p2>
 
                     <div className="hero-code">
-                        <code>C</code>,
-                        <code>Java</code>, 
-                        <code>Python</code>, 
-                        <code>HTML/CSS</code>, 
-                        <code>JavaScipt</code>, 
-                        <code>VBA</code>, 
-                        <code>R</code>, 
-                        <code>Assembly(ARMv7)</code>
-                            
+
+                        {arr.map((item, index) => (
+                            index < arr.length - 1 && <code key={index}>{item},</code>
+                        ))}
+                        <code>{arr[arr.length - 1]}</code>
+                        
+                        
                     </div>
 
                     <div className = 'hero-btn'>
